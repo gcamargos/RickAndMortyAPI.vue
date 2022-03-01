@@ -80,9 +80,10 @@
         overflow: hidden;
     }
     img{
-        border-radius: 10%;
-        width: 95%;
-        position: relative;
-        background-size:contain ;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+    position: relative;
+    background-size: contain;
     }
 </style>
