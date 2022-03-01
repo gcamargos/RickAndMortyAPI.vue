@@ -48,7 +48,7 @@
         background: rgba(72 72 72 / 98%);
         display: flex;
         flex-direction: column;
-        margin:5% 0% 0% 2%;
+        margin:2% 0% 0% 2%;
         border-radius: 12px;
         height: 480px;
 

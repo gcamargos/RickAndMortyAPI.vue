@@ -5,7 +5,7 @@
     <input type="button" value="SEARCH" id="btnSearch" v-on:click="search()">
     <ProfileData v-if="error == false" :chars="chars" /> <!-- Passando dados de forma dinamica-->
     <div v-else>
-      <h1>Nenhum resultado encontrado</h1>
+      <h1>Nenhum resultado encontrado...</h1>
     </div>
   </div>
 </template>
