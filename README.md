@@ -22,3 +22,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Aplicação: https://wizardly-perlman-e0b65a.netlify.app/
