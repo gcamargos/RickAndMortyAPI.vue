@@ -2,8 +2,6 @@
   <div class="container">
     <div class="slogan"> <img src="../assets/title.png" alt=""></div>
     <input type="text"   name="" id="search" placeholder="Busque aqui" v-model="NewName" >
-
-
     <input type="button" value="SEARCH" id="btnSearch" v-on:click="search()">
     <ProfileData v-if="error == false" :chars="chars" /> <!-- Passando dados de forma dinamica-->
     <div v-else>
@@ -19,9 +17,7 @@
     components: {
       ProfileData
     },
-    props: {
-
-    },
+    props: {},
     data() {
       return {
         NewName: "",

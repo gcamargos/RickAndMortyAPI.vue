@@ -1,15 +1,18 @@
 <template>
     <div class="avatar">
-            <ul  v-for="char in chars" :key="char.id">
-                <li class="container">
+            <ul class="container-ul">
+                <li v-for="char in chars" :key="char.id" class="container">
                     <div class="image">
                         <img :src="char.image" alt="" srcset="">
                     </div>
                     <div class="data-char">
                         <span class="name-span">{{char.name}}</span>
+                        <div class="subs">
                         <span> SPECIES: {{char.species}}</span>
                         <span>GENDER: {{char.gender}}</span>
                         <span>STATUS: {{char.status}}</span>
+                        </div>
+                        
                     </div>
                 </li>
             </ul>
@@ -34,17 +37,20 @@
         width: 100%;
         justify-content: center;
     }
+.container-ul{
+       display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
 
+        }
     .container {
         background: rgba(72 72 72 / 98%);
         display: flex;
         flex-direction: column;
-        padding: 3%;
-        margin:5% 2% 0% 2%;
-        text-align: center;
-        overflow: hidden;
+        margin:5% 0% 0% 2%;
         border-radius: 12px;
-        height: 440px;
+        height: 480px;
 
     }
 
@@ -54,7 +60,15 @@
         color: rgb(255, 255, 255);
         align-items: left;
         text-align: left;
+        padding-top: 2%;
 
+    }
+    .subs{
+     padding-left: 5%;
+     padding-top: 5%;
+     display: flex;
+     flex-direction: column;
+   
     }
     .name-span{
         font-size: 1.4rem;
