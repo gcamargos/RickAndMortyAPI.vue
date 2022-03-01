@@ -36,7 +36,7 @@
     }
 
     .container {
-        background: rgba(94, 94, 94, 0.849);
+        background: rgba(72 72 72 / 98%);
         display: flex;
         flex-direction: column;
         padding: 3%;
