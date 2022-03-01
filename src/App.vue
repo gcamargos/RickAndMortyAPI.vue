@@ -34,11 +34,17 @@ border:0
   
 }
 .home{
-    background: url("https://wallpapercave.com/wp/wp7110875.jpg");
-    max-width: 100vw;
+  /*DIFERENTES BACKGROUNDS */
+    /* background: url(https://wallpapercave.com/wp/wp7110875.jpg); */
+    /* background: url(https://wallpaperaccess.com/full/401059.png); */
+     /* background: url(https://wallpaperaccess.com/full/85327.png);  */
+    background: url(https://cdn.wallpapersafari.com/53/72/cMIO9o.jpg);
     min-height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat: round;
+    background-position: revert;
+    background-size: contain;
     background-attachment: fixed;
-
 }
+
+
 </style>
